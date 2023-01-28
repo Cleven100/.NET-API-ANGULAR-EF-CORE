@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\supereventos\\SuperEventos.csproj": {}
+    "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\SuperEventos\\SuperEventos.csproj": {}
   },
   "projects": {
-    "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\supereventos\\SuperEventos.csproj": {
+    "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\SuperEventos\\SuperEventos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\supereventos\\SuperEventos.csproj",
+        "projectUniqueName": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\SuperEventos\\SuperEventos.csproj",
         "projectName": "SuperEventos",
-        "projectPath": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\supereventos\\SuperEventos.csproj",
+        "projectPath": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\SuperEventos\\SuperEventos.csproj",
         "packagesPath": "C:\\Users\\cleve\\.nuget\\packages\\",
-        "outputPath": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\supereventos\\obj\\",
+        "outputPath": "D:\\Area de trabalho\\Fullstack .net API + Angular\\Fullstack-.net-with-angular\\backend\\src\\SuperEventos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cleve\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
